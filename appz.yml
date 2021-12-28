@@ -27,4 +27,6 @@ properties:
     POSTGRES_USER: openproject
     POSTGRES_PASSWORD: 
       vault: POSTGRESQL_OPENPROJECT_PASSWORD
+    RSYNC_SERCERT:
+      vault: RSYNC_SERCERT
     revision: 3
