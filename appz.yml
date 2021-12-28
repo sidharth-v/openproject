@@ -12,6 +12,7 @@ build:
 
 deploy:
     context: francisjoy/DEV
+    type: statefulset
     replicas: 2
     port:
     - 80
