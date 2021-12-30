@@ -13,7 +13,7 @@ build:
 deploy:
     context: francisjoy/DEV
     type: statefulset
-    replicas: 2
+    replicas: 1
     port:
     - 80
 
@@ -38,4 +38,4 @@ properties:
       vault: POSTGRESQL_OPENPROJECT_PASSWORD
     RSYNC_SECRET:
       vault: RSYNC_SECRET
-    revision: 4
+    revision: 5
