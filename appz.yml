@@ -18,10 +18,14 @@ deploy:
     - 80
 
 volumes:
-  - claim: openproject
-    mount: /appz/data
-    name: data
-    size: 5Gi
+- claim: openproject-assets
+  mount: /var/openproject/assets
+  name: assets
+  size: 5Gi   
+- claim: openproject-pgdata
+  mount: /var/openproject/pgdata
+  name: pgdata
+  size: 5Gi 
     
 properties:
     SECRET_KEY_BASE: 
@@ -35,4 +39,4 @@ properties:
       vault: POSTGRESQL_OPENPROJECT_PASSWORD
     RSYNC_SECRET:
       vault: RSYNC_SECRET
-    revision: 8
+    revision: 7
