@@ -39,4 +39,4 @@ properties:
       vault: POSTGRESQL_OPENPROJECT_PASSWORD
     RSYNC_SECRET:
       vault: RSYNC_SECRET
-    revision: 8
+    revision: 9
