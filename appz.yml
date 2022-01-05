@@ -20,7 +20,7 @@ deploy:
 volumes:
 - claim: openproject
   mount: /appz/data/openproject
-  name: openproject
+  name: openproj
   size: 5Gi
     
 properties:
