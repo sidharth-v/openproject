@@ -30,7 +30,7 @@ volumes:
 properties:
     SECRET_KEY_BASE: 
       vault: SECRET_KEY_BASE
-    ATTACHMENTS_STORAGE_PATH: /appz/data/openproject
+    ATTACHMENTS_STORAGE_PATH: "/appz/data/openproject"
     POSTGRES_HOST: openproject-postgres-13-x    
     POSTGRES_PORT: 5432
     POSTGRES_DB: openproject
