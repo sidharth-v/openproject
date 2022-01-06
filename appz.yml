@@ -26,7 +26,7 @@ volumes:
 properties:
     SECRET_KEY_BASE: 
       vault: SECRET_KEY_BASE
-    FILESYNC_ENABLE: yes
+    FILESYNC_ENABLE: 'yes'
     ATTACHMENTS_STORAGE_PATH: /appz/data/openproject
     POSTGRES_HOST: openproject-postgres-13-x    
     POSTGRES_PORT: 5432
