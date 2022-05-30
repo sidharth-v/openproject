@@ -8,7 +8,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: openproject-12.1.1
+    image_template: openproject-12.1
 
 deploy:
     context: sidharth-v/DEV
