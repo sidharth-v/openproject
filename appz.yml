@@ -4,7 +4,7 @@ app:
     notify: svengathattil@ecloudcontrol.com
 
 build:
-    version: 12.1
+    version: 11.3
     env: DEV
     build_file: none
     output_files: output/*.zip
