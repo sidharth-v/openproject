@@ -4,11 +4,11 @@ app:
     notify: svengathattil@ecloudcontrol.com
 
 build:
-    version: 11.3
+    version: 12.1
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: openproject-11.3
+    image_template: openproject-12.1
 
 deploy:
     context: sidharth-v/DEV
