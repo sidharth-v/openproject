@@ -1,14 +1,14 @@
 app:
-    name: OpenProject
-    code: OPENPROJECT 
+    name: OpenProject12
+    code: OPENPROJECT12
     notify: svengathattil@ecloudcontrol.com
 
 build:
-    version: 11.3
+    version: 12.1
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: openproject-11.3
+    image_template: openproject-12.1
 
 deploy:
     context: sidharth-v/DEV
@@ -27,7 +27,7 @@ properties:
     SECRET_KEY_BASE: 
       vault: SECRET_KEY_BASE
     FILESYNC_ENABLE: 'yes'
-    ATTACHMENTS_STORAGE_PATH: /appz/data/openproject/assets/files
+    OPENPROJECT_ATTACHMENTS_STORAGE_PATH: /appz/data/openproject/assets/files
     POSTGRES_HOST: openproject-postgres-13-x    
     POSTGRES_PORT: 5432
     POSTGRES_DB: openproject
