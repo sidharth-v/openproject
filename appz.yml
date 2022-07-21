@@ -39,4 +39,5 @@ properties:
     OPENPROJECT_ADMIN_PASSWORD:
       vault: OPENPROJECT_ADMIN_PASSWORD
     ENABLE_BOARDS: 0
-    revision: 15
+    revision: 16
+    
